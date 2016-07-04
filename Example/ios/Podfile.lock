@@ -1,0 +1,40 @@
+PODS:
+  - react-native-spinkit (0.1.2):
+    - SpinKit (~> 1.2)
+  - React/Core (0.28.0)
+  - React/RCTImage (0.28.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.28.0):
+    - React/Core
+  - React/RCTNetwork (0.28.0):
+    - React/Core
+  - React/RCTText (0.28.0):
+    - React/Core
+  - React/RCTWebSocket (0.28.0):
+    - React/Core
+  - SpinKit (1.2.0)
+
+DEPENDENCIES:
+  - react-native-spinkit (from `../../ios`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  react-native-spinkit:
+    :path: ../../ios
+
+SPEC CHECKSUMS:
+  React: 43544faed4af6a0e8fbc4b3abd26141ed654fa49
+  react-native-spinkit: bf75bcae61dfb03d2481535a7d96865a4117884c
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
+
+PODFILE CHECKSUM: 65e2951eedb76b7896978ca99661543c1c79a7ee
+
+COCOAPODS: 1.0.1
